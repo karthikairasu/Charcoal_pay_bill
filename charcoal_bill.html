@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Charcoal bay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    .bill{
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    .bold{
+        font-weight: bold;
+     }   
+     p{
+        margin-bottom: 3px;
+     }
+     .bill_details{
+        margin-bottom: 5px;
+     }
+     .table>thead>tr>th {
+       /* vertical-align: bottom; */
+       border-bottom: 2px dotted black;
+     }
+     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 2px dotted black;
+     }
+    .table{
+          border-style: dotted;
+          border-width: 2px 0px 2px 0px;
+          border-color: black;
+     }
+     .line{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 0;
+        border-top: 2px dotted black;
+        text-align: right;
+        width: 1005;
+     }
+     .total{
+        float:right;
+       text-align: right;
+       padding-right: 26px;
+     }
+     footer{
+        bottom:0;
+     }
+     .clear{
+        clear:both;
+     }
+     .total >p{
+        border-bottom: 2px dotted black;
+     }
+     .top{
+      padding-top: 20px; 
+     }
+     .bottom{
+      padding-bottom: 20px; 
+     }
+     .px-5{
+        padding:0px 7px;
+     }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+          <h4 class="bold text-center" style="margin:8px 0 2px 0px;">THE CHARCOAL BAY</h4>
+          <div class="row">
+            <div class="col-xs-7 px-5">
+              <div class="">
+                  
+                  <p>Near Nahas Hospital</p>
+                  <p>PARAPPANAGADI</p>
+                  <p>Date     :12/19/2018  9:03:25 PM</p>
+                  <p><b>Captain  : Admin</b></p>
+              </div>
+            </div>
+            <div class="col-xs-5 px-5">
+              <div class="bill_details">
+                  <p>Bill No  :  6000</p>
+                  <p>Table No :Take Away</p>
+                  <p>KOT No   : </p>
+                  <p class="bold">Token No : 66</p>
+              </div> 
+            </div>
+          </div>
+              <table class="table" style="margin-bottom: 3px">
+                    <thead>
+                      <tr>
+                        <th>SNo</th>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Rate</th>
+                        <th>Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Smoke Rice</td>
+                        <td>1</td>
+                        <td>60.00</td>
+                        <td>60.00</td>
+                      </tr>
+                    </tbody>
+            </table>
+                  <div class="row">
+                      <div class="col-xs-8">
+                      <p>Item Total :</p>
+                      <p>SGST @0.00% :</p>
+                      <p>CGST @0.00% :</p>
+                      <p>Round Off :</p>
+                      </div>
+                      <div class="col-xs-4" style="padding-left:35px;">
+                      <p>60.00</p>
+                      <p>00.00</p>
+                      <p>00.00</p>
+                      <p>00.00</p>
+                      </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-xs-8">
+                      <h4 class="bold"> Grand Total :</h4>
+                    </div>
+                    <div class="col-xs-4" style="padding-left:30px;">
+                      <h4 class="bold">60.00</h4>
+                    </div>
+                  </div>
+                  <hr class="line">
+                <footer class="text-center bottom">Thank You. Visit Again....</footer>
+        </div>
+</body>
+</html>
