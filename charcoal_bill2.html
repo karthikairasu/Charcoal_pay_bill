@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Charcoal bay</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    .bill{
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    .bold{
+        font-weight: bold;
+     }   
+     p{
+        margin-bottom: 3px;
+     }
+     .bill_details{
+        margin-bottom: 5px;
+     }
+     .table>thead>tr>th {
+       /* vertical-align: bottom; */
+       border-bottom: 2px dotted transparent;
+     }
+     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 0px 4px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 2px dotted transparent;
+     }
+    .table{
+          border-style: dotted;
+          border-width: 2px 0px 2px 0px;
+          border-color: transparent;
+          margin: 4px 0px;
+     }
+     .line{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 0;
+        border-top: 2px dotted transparent;
+        text-align: right;
+        width: 1005;
+     }
+     .total{
+        float:right;
+       text-align: right;
+       padding-right: 26px;
+     }
+     footer{
+        bottom:0;
+     }
+     .clear{
+        clear:both;
+     }
+     .total >p{
+        border-bottom: 2px dotted transparent;
+     }
+     .top{
+      padding-top: 20px; 
+     }
+     .bottom{
+      padding: 20px 0px; 
+     }
+     .px-5{
+        padding:0px 0px;
+     }
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid" style="font-family: monospace;font-size: 13px;">
+          <div class="row">
+                 <div class="col-xs-3">03/03/2021</div>
+                 <div class="col-xs-3">02:52:00</div>
+                 <div class="col-xs-6">Order 0000-000-0003</div>
+              </div>
+          <h5 class="" style="margin:10px 0 1px 0px;font-size: 12px;">TomoorAlULA</h5>
+          <div class="row" style="margin: 0px;font-size: 12px;">
+            <div class="col-xs-8 px-5">
+              <div class="">
+                  <p style="margin:2px 0 1px 0px;">Phone     :<span>+96768765458</span></p>
+                  <p style="margin:2px 0 1px 0px;">VAT     :<span>36768765458</span></p>
+                  <p style="margin:2px 0 2px 0px;">User     :<span>Administrator</span></p>
+              </div>
+            </div>
+            <div class="col-xs-4 px-5">
+              <div class="bill_details">
+              </div> 
+            </div>
+          </div>
+              <table class="table" style="margin-bottom: 3px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th width="%"></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Brewed Coffee (Small)</td>
+                        <td>1.000</td>
+                        <td>60.00 SR</td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Smoke Rice</td>
+                        <td>1.000</td>
+                        <td>60.00 SR</td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Smoke Rice</td>
+                        <td>1.000</td>
+                        <td>60.00 SR</td>
+                      </tr>
+                    </tbody>
+            </table>
+                  <div class="row" style="padding-top: 4px;">
+                      <div class="col-xs-8">
+                      <p style="margin: 0px;">Sub Total :</p>
+                      <p style="margin: 0px;">Sale VAT 15% :</p>
+                      </div>
+                      <div class="col-xs-4" style="">
+                      <p style="margin: 0px;text-align: center">180.00 SR</p>
+                      <p style="margin: 0px;text-align: center">20.00 SR</p>
+                      </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row">
+                    <div class="col-xs-8">
+                      <h5 class="bold" style="margin: 0px;font-size: 17px"> Total :</h5>
+                    </div>
+                    <div class="col-xs-4" style="">
+                      <h5 class="bold" style="margin: 0px;text-align: center;font-size: 17px">200.00 SR</h5>
+                    </div>
+                  </div>
+                  <hr class="line">
+                  <div class="row" style="padding-top: 8px;">
+                      <div class="col-xs-8">
+                      <p style="margin: 0px;">Cash(SAR) :</p>
+                      </div>
+                      <div class="col-xs-4" style="">
+                      <p style="margin: 0px;text-align: center">200.00 SR</p>
+                      </div>
+                  </div>
+                  <div class="row" style="padding-top: 8px;">
+                      <div class="col-xs-8">
+                      <p style="margin: 0px;">Change :</p>
+                      </div>
+                      <div class="col-xs-4" style="">
+                      <p style="margin: 0px;text-align: center">0.00 SR</p>
+                      </div>
+                  </div>
+                <footer class="text-center bottom">Thank You. Visit Again....</footer>
+        </div>
+</body>
+</html>
